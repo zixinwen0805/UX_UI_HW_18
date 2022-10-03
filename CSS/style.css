@@ -1,0 +1,247 @@
+body {
+    background-color: #F5F0E0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button { 
+    height:70px;
+    background-color:#353D87;
+    color:white;
+    font-family:gopher, sans-serif;
+    font-size: 16px;
+    font-weight:bold;
+    text-decoration:double;
+    padding: 16px;
+    border: 6px solid #000000;
+    box-shadow:8px 8px #000000;
+}
+
+footer {
+    background-color: #F5F0E0;
+    color:black;
+    font-family:gopher, sans-serif;
+    font-size: 18px;
+}
+
+footer ul {
+    display:inline-block;
+    vertical-align:top;
+    padding:10%;
+    display:flex;
+    flex-direction:column;
+}
+
+nav {
+    width:60%;
+    padding:2%;
+    background-color:#F5F0E0;
+    font-family: gopher, sans-serif;
+    font-size:24px;
+    font-weight: bold;
+    text-align: end;
+}
+
+nav button { 
+    display: inline-block;
+    width: 20%;
+    height: 72px;
+    padding-left:30%;
+} 
+
+
+p {
+    font-size:24px;
+    font-family: Source sans pro;
+    font-weight:lighter;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align:top;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+.logo {
+    width: 25%;
+    padding: 2%;
+    padding-right: 2%;
+    margin-right: 8%;
+    text-align: center;
+}
+
+.line {
+    font-weight:bold;
+    font-family:gopher, sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+.abt {
+    background-color: #5FA47B;
+    margin: 2%;
+}
+
+.work {
+    margin: 2%;
+}
+
+.contact {
+    background-color: #C2663D;
+    margin: 2%;
+}
+
+.read-more {
+    text-align: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.read-more button {
+    width: 20%;
+}
+
+.parent-container {
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.grid-container-work {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30% 30% 80%;
+    grid-gap: 1%;
+    text-decoration:double;
+    border: 8px solid #000000;
+    box-shadow:10px 10px #000000;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 4%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 80%;
+    display: grid;
+    font-family: gopher, sans serif;
+    font-size: 24px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+
+.grid-container-img {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+.haowu {
+    padding-left: 25%;
+}
+
+.line p {
+    padding-left: 10%;
+}
+
+.img {
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.img button {
+    background-color: #5FA47B;
+    width: 20%;
+}
+
+.paragraph {
+    padding-left: 4%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.self-img {
+    padding: 0.1%;
+    width:70%;
+    height: 40%;
+}
+
+.self-intro {
+    align-self: left;
+    width: 50%;
+    padding-left: 5%;
+    margin-left: 5%;
+    font-family:gopher, sans-serif;
+    font-size: 30px;
+}
+
+.rspca-button {
+    background-color: #EBB45A;
+    margin-top: 6%;
+}
+
+.haowu-button {
+    background-color: #C2663D;
+    margin-top: 6%;
+}
+
+@font-face {
+    font-family: 'gopher';
+    src: url("../font/Gopher-Black.otf") format("opentype");
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container-work {
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        text-decoration:double;
+        border: 8px solid #000000;
+        box-shadow:10px 10px #000000;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-right: 4%;
+        padding-right: 2%;
+        padding-left: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        display: grid;
+        font-family: gopher, sans serif;
+        font-size: 16px;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 40% 30%;
+        margin-left: 4%;
+        padding-left: 2%;
+    }
+    
+    .grid-container-img {
+        display: grid;
+        grid-template-columns: 100%;
+        margin-left: 4%;
+        margin-bottom: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+    }
+}
